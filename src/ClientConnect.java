@@ -48,6 +48,7 @@ public class ClientConnect implements  Runnable{
     }
     private void init(){
         try{
+            System.out.println("Key distribution initialization is starting now:");
             //************************************************
             //GENERATE THE PUBLIC/PRIVATE KEYS
             //************************************************
@@ -125,6 +126,7 @@ public class ClientConnect implements  Runnable{
         } catch (NoSuchPaddingException e) {
             e.printStackTrace();
         }
+        System.out.println("Key distribution initialization has ended.");
     }
 
     public void readFromServer(){

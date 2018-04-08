@@ -29,9 +29,6 @@ public class ClientMain {
             message = scanner.nextLine();
             clientConnect.writeToServer(message);
         }
-        //is that it? I can try connecting both now?
-        //for the main ya
-
 
 
     }
